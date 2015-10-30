@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: center;
+}
+nav ul {
+  display: inline;
+}
+nav ul li {
+  display: inline;
+}
+
+header {
+  text-align: center;
+}
+header div {
+  display: inline-block;
+}
+header div span {
+  display: block;
+}
+
+main {
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+main section {
+  display: inline-block;
+  width: calc(99% / 2);
+  box-sizing: border-box;
+  margin: 0;
+}
+main section div {
+  width: 60%;
+  margin: 0;
+}

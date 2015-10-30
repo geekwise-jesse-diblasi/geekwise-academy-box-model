@@ -1,0 +1,60 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
+@import "variables";
+@import "reset";
+@import "fontawesome";
+
+/* sass goes here */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul {
+	text-align: center;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	text-align: center;
+}
+
+main span {
+	display: block;
+}
+
+main > footer > div {
+	display: inline-block;
+}
+
+
+// ----------- BACKGROUND COLOR --------------
+
+nav {
+	background-color: grey;
+}
+
+header {
+	background-color: orange;
+}
+
+main {
+	background-color: green;
+}
+
+footer {
+	background-color: yellow;
+}
+
+div {
+	background-color: purple;
+}

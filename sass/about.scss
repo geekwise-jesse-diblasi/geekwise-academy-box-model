@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	text-align: center;
+	ul {
+		display: inline;
+		li {
+			display: inline;
+			a {
+			}
+		}
+	}
+}
+
+header {
+	text-align: center;
+	div {
+		display: inline-block;
+		span {
+			display: block;
+		}
+	}
+}
+
+main {
+	background-color: black;
+	color: white;
+	display: inline-block;
+		section {
+		display: inline-block;
+		width: calc(99% / 2);
+		box-sizing: border-box;
+		margin: 0;
+		div {
+			width: 60%;
+			margin: 0;
+		}
+	}
+
+}
